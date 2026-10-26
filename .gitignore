@@ -1,0 +1,27 @@
+# Python bytecode aur cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Environment variables & secrets (Sab se ahem!)
+.env
+
+# Vector Database (Persisted local storage)
+data/vector_store/
+
+# System logs
+logs/
+
+# Evaluation results artifacts
+evaluation/results/
+
+# OS specific files
+.DS_Store
+Thumbs.db
